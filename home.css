@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    animation: show-content 0.5s linear forwards;
+    animation-delay: 0.8s;
 }
 body{
     background-color: black;
@@ -14,8 +16,7 @@ body{
     background-size: cover;
     z-index: -1;
     opacity: 0;
-    animation: show-content 0.5s linear forwards;
-    animation-delay: 0.8s;
+
 }
 
 .navbar{
@@ -122,9 +123,7 @@ main > h1{
     background-color: black;
     overflow: hidden;
     background-color: #2F3645;
-
-    
-
+    animation: fadeIn 0.8s ease forwards;
 }
 .box > a > img {
     height: 150px;
@@ -312,10 +311,9 @@ footer > .background {
     }
 }
 .container{
-    animation: show-content 1.5s linear forwards;
-    animation-delay: 1.2s;
+    animation: show-content 0.5s linear forwards;
+    animation-delay: 0.8s;
 }
-
 
 
 
