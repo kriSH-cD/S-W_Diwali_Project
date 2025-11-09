@@ -64,12 +64,16 @@ header {
 
 header h1 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: Macondo;
+  color: #C1856D;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 25px;
   margin-top: 10px;
+  font-family: WDXL Lubrifont SC;
+  color: #F3F2EC;
 }
 
 .container {
@@ -82,7 +86,7 @@ header p {
 }
 
 .card {
-  background: white;
+  background: rgb(192, 233, 255);
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -106,11 +110,14 @@ header p {
 
 .card-content h2 {
   color: #1e3d59;
-  font-size: 1.5rem;
+  font-size: 27px;
   margin-bottom: 10px;
+  font-family: Zen Antique;
+  
 }
 
 .card-content p {
-  font-size: 0.95rem;
+  font-size: 18px;
   margin-bottom: 15px;
+  font-family: Gowun Dodum;
 }
